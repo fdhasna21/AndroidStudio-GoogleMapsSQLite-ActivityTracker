@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutPadding">24dp</dimen>
+    <dimen name="viewPadding">8dp</dimen>
+    <dimen name="textPadding">2dp</dimen>
+</resources>

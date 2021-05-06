@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LatihanSQLiteGMaps_ActivityTracker</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB2t4hOvy4D0fX0nb8T_By3xp4ibdkjWTQ</string>
+    <string name="no_history_available">No History Available</string>
+</resources>
