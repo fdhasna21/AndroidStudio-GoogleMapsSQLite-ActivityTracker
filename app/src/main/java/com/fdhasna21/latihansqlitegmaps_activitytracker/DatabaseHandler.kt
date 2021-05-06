@@ -71,4 +71,15 @@ class DatabaseHandler(context: Context)
         cursor.close()
         return tempDiary
     }
+
+    fun deleteHistory(history: HistoryModel): Int {
+        val db = this.writableDatabase
+        val contentValues = ContentValues()
+
+        contentValues.put(KEY_ID, history.id)
+
+        val success = db.delete(TABLE_NAME, "$KEY_ID = ${history.id}", null)
+        db.close()
+        return success
+    }
 }

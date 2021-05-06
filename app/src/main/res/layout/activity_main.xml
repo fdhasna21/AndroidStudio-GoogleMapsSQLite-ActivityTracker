@@ -91,11 +91,12 @@
                     android:layout_height="wrap_content"
                     android:hint="Activity"
                     android:inputType="text"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/fd_btn_addActivity"
+                android:id="@+id/main_btn_addActivity"
                 android:text="Submit"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
