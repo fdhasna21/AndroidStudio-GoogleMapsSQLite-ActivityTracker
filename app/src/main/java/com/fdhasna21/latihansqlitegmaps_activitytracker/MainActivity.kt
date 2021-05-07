@@ -174,9 +174,7 @@ class MainActivity : AppCompatActivity() {
         myDate = SimpleDateFormat("EEEE, dd MMMM yyyy", Locale.getDefault()).format(Date())
         myTime = SimpleDateFormat(timeFormat, Locale.getDefault()).format(Date())
 
-        val dateInMainActivity = SimpleDateFormat("EEEE,\ndd MMMM yyyy", Locale.getDefault()).format(
-            Date()
-        )
+        val dateInMainActivity = SimpleDateFormat("EEEE,\ndd MMMM yyyy", Locale.getDefault()).format(Date())
         main_date.setText(dateInMainActivity)
         main_time.setText(myTime)
     }

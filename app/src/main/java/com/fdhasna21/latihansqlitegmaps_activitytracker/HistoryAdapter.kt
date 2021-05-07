@@ -26,7 +26,7 @@ class HistoryAdapter(val arrayList: ArrayList<HistoryModel>, val context: Contex
         val deleteRecord = itemView.record_btnDelete
         val buttonContainerRecord = itemView.record_button_container
         val dateTimeContainerRecord = itemView.record_datetime_container
-        var openMoreRecord = false
+        var openMoreRecord = true
 
     }
 
