@@ -58,6 +58,7 @@ class TrackerHistory : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tracker_history)
         supportActionBar!!.setTitle("History")
+        supportActionBar!!.setSubtitle(getString(R.string.createdby))
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         showHistory()

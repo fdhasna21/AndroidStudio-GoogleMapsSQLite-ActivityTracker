@@ -190,6 +190,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar!!.setTitle("Activity Tracker")
+        supportActionBar!!.setSubtitle(getString(R.string.createdby))
 
         getCurrentLocalData()
         val handler = Handler()
